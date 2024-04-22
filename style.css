@@ -38,12 +38,12 @@ footer {
 
 /* Service Card Styles */
 .card-body {
-  transition: transform 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .card-body:hover {
   background-color: #e2f9fe;
   border-radius: 20px;
   transform: translateY(-5px);
-  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.066);
 }
