@@ -1,0 +1,49 @@
+body {
+  background-color: #cff4fc;
+  color: black;
+}
+
+#navbar {
+  background-color: #0dcaf0;
+}
+.btn {
+  background-color: #0dcaf0;
+}
+footer {
+  background-color: #0dcaf0;
+}
+#services {
+  color: #cff4fc;
+}
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  color: black;
+  transition: font-weight 0.3s ease;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  border-radius: 50px;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Service Card Styles */
+.card-body {
+  transition: transform 0.3s ease;
+}
+
+.card-body:hover {
+  background-color: #e2f9fe;
+  border-radius: 20px;
+  transform: translateY(-5px);
+  transform: scale(1.1);
+}
